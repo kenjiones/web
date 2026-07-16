@@ -1,0 +1,52 @@
+[
+  {
+    "title":"Foto Anime",
+    "category":"Anime",
+    "prompt":"Ubah foto menjadi karakter anime berkualitas tinggi, mata detail, cinematic lighting, ultra detailed, vibrant color, masterpiece."
+  },
+  {
+    "title":"Studio Ghibli",
+    "category":"Anime",
+    "prompt":"Transform photo into Studio Ghibli style, soft pastel colors, magical forest atmosphere, hand painted illustration."
+  },
+  {
+    "title":"Cyberpunk",
+    "category":"Sci-Fi",
+    "prompt":"Convert image into futuristic cyberpunk city, neon lights, rain, cinematic, ultra realistic, 8k."
+  },
+  {
+    "title":"Pixar 3D",
+    "category":"3D",
+    "prompt":"Create Pixar style 3D character, expressive face, soft lighting, colorful, highly detailed."
+  },
+  {
+    "title":"Action Figure",
+    "category":"Toy",
+    "prompt":"Transform person into collectible action figure inside premium toy box packaging, realistic plastic texture."
+  },
+  {
+    "title":"LEGO",
+    "category":"Toy",
+    "prompt":"Turn photo into LEGO minifigure with realistic LEGO environment, colorful, detailed."
+  },
+  {
+    "title":"Realistic Portrait",
+    "category":"Portrait",
+    "prompt":"Ultra realistic portrait, DSLR quality, natural skin, cinematic lighting, shallow depth of field."
+  },
+  {
+    "title":"Fantasy",
+    "category":"Fantasy",
+    "prompt":"Epic fantasy warrior, glowing armor, magical forest, volumetric light, masterpiece, highly detailed."
+  },
+  {
+    "title":"Samurai",
+    "category":"Japan",
+    "prompt":"Traditional Japanese samurai, cherry blossom, dramatic sunset, realistic armor, cinematic composition."
+  },
+  {
+    "title":"Dark Angel",
+    "category":"Fantasy",
+    "prompt":"Dark angel with black wings, moonlight, gothic atmosphere, highly detailed, ultra realistic."
+  }
+]
