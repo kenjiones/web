@@ -1,52 +1,122 @@
 [
   {
-    "title":"Foto Anime",
-    "category":"Anime",
-    "prompt":"Ubah foto menjadi karakter anime berkualitas tinggi, mata detail, cinematic lighting, ultra detailed, vibrant color, masterpiece."
+    "title": "Anime Jepang",
+    "prompt": "Ubah foto menjadi karakter anime Jepang dengan kualitas tinggi, mata detail, warna cerah, pencahayaan sinematik, dan latar belakang yang indah."
   },
   {
-    "title":"Studio Ghibli",
-    "category":"Anime",
-    "prompt":"Transform photo into Studio Ghibli style, soft pastel colors, magical forest atmosphere, hand painted illustration."
+    "title": "Studio Ghibli",
+    "prompt": "Ubah foto menjadi ilustrasi bergaya Studio Ghibli dengan warna lembut, suasana hangat, dan detail seperti lukisan tangan."
   },
   {
-    "title":"Cyberpunk",
-    "category":"Sci-Fi",
-    "prompt":"Convert image into futuristic cyberpunk city, neon lights, rain, cinematic, ultra realistic, 8k."
+    "title": "Pixar 3D",
+    "prompt": "Ubah foto menjadi karakter animasi 3D bergaya Pixar dengan ekspresi lucu, pencahayaan lembut, dan kualitas render yang sangat detail."
   },
   {
-    "title":"Pixar 3D",
-    "category":"3D",
-    "prompt":"Create Pixar style 3D character, expressive face, soft lighting, colorful, highly detailed."
+    "title": "Disney 3D",
+    "prompt": "Ubah foto menjadi karakter animasi Disney 3D dengan warna cerah, wajah ekspresif, dan nuansa film animasi modern."
   },
   {
-    "title":"Action Figure",
-    "category":"Toy",
-    "prompt":"Transform person into collectible action figure inside premium toy box packaging, realistic plastic texture."
+    "title": "Karakter 3D Realistis",
+    "prompt": "Ubah foto menjadi karakter 3D realistis dengan pencahayaan profesional, tekstur kulit alami, dan kualitas render premium."
   },
   {
-    "title":"LEGO",
-    "category":"Toy",
-    "prompt":"Turn photo into LEGO minifigure with realistic LEGO environment, colorful, detailed."
+    "title": "Clay Art",
+    "prompt": "Ubah foto menjadi karakter dari tanah liat (clay art) dengan tekstur lembut, lucu, dan bergaya miniatur."
   },
   {
-    "title":"Realistic Portrait",
-    "category":"Portrait",
-    "prompt":"Ultra realistic portrait, DSLR quality, natural skin, cinematic lighting, shallow depth of field."
+    "title": "Clay Stop Motion",
+    "prompt": "Ubah foto menjadi karakter bergaya film stop motion berbahan clay dengan pencahayaan studio."
   },
   {
-    "title":"Fantasy",
-    "category":"Fantasy",
-    "prompt":"Epic fantasy warrior, glowing armor, magical forest, volumetric light, masterpiece, highly detailed."
+    "title": "LEGO",
+    "prompt": "Ubah foto menjadi karakter LEGO lengkap dengan dunia LEGO penuh warna dan detail tinggi."
   },
   {
-    "title":"Samurai",
-    "category":"Japan",
-    "prompt":"Traditional Japanese samurai, cherry blossom, dramatic sunset, realistic armor, cinematic composition."
+    "title": "Action Figure",
+    "prompt": "Ubah foto menjadi action figure premium lengkap dengan kotak mainan eksklusif dan desain realistis."
   },
   {
-    "title":"Dark Angel",
-    "category":"Fantasy",
-    "prompt":"Dark angel with black wings, moonlight, gothic atmosphere, highly detailed, ultra realistic."
+    "title": "Funko Pop",
+    "prompt": "Ubah foto menjadi karakter bergaya Funko Pop dengan kepala besar, mata hitam, dan tampilan lucu."
+  },
+  {
+    "title": "Chibi",
+    "prompt": "Ubah foto menjadi karakter chibi dengan kepala besar, tubuh kecil, ekspresi imut, dan warna cerah."
+  },
+  {
+    "title": "Minecraft",
+    "prompt": "Ubah foto menjadi karakter bergaya Minecraft dengan bentuk kotak dan dunia voxel."
+  },
+  {
+    "title": "Roblox",
+    "prompt": "Ubah foto menjadi avatar Roblox dengan gaya modern dan warna cerah."
+  },
+  {
+    "title": "Cyberpunk",
+    "prompt": "Ubah foto menjadi dunia cyberpunk dengan lampu neon, hujan malam, dan suasana futuristik."
+  },
+  {
+    "title": "Steampunk",
+    "prompt": "Ubah foto menjadi karakter steampunk dengan roda gigi, mesin uap, dan nuansa era Victoria."
+  },
+  {
+    "title": "Potret Profesional",
+    "prompt": "Perbaiki foto menjadi potret profesional dengan pencahayaan studio, latar belakang blur, dan kualitas kamera DSLR."
+  },
+  {
+    "title": "Fantasy",
+    "prompt": "Ubah foto menjadi karakter dunia fantasi dengan kastil megah, sihir, dan efek cahaya epik."
+  },
+  {
+    "title": "Samurai Jepang",
+    "prompt": "Ubah foto menjadi samurai Jepang dengan bunga sakura, baju zirah tradisional, dan suasana sinematik."
+  },
+  {
+    "title": "Ninja",
+    "prompt": "Ubah foto menjadi ninja dengan pakaian hitam, pedang katana, dan suasana malam yang misterius."
+  },
+  {
+    "title": "Viking",
+    "prompt": "Ubah foto menjadi prajurit Viking lengkap dengan kapak besar dan pegunungan bersalju."
+  },
+  {
+    "title": "Bajak Laut",
+    "prompt": "Ubah foto menjadi kapten bajak laut dengan kapal besar dan lautan luas."
+  },
+  {
+    "title": "Astronot",
+    "prompt": "Ubah foto menjadi astronot di luar angkasa dengan planet, galaksi, dan bintang yang indah."
+  },
+  {
+    "title": "Superhero",
+    "prompt": "Ubah foto menjadi superhero dengan kostum modern, efek cahaya, dan gaya poster film."
+  },
+  {
+    "title": "Malaikat",
+    "prompt": "Ubah foto menjadi malaikat dengan sayap putih besar, cahaya surgawi, dan suasana damai."
+  },
+  {
+    "title": "Malaikat Gelap",
+    "prompt": "Ubah foto menjadi malaikat gelap dengan sayap hitam, cahaya bulan, dan suasana misterius."
+  },
+  {
+    "title": "Lukisan Cat Air",
+    "prompt": "Ubah foto menjadi lukisan cat air dengan tekstur kertas dan warna yang lembut."
+  },
+  {
+    "title": "Lukisan Minyak",
+    "prompt": "Ubah foto menjadi lukisan cat minyak bergaya klasik dengan sapuan kuas yang realistis."
+  },
+  {
+    "title": "Sketsa Pensil",
+    "prompt": "Ubah foto menjadi sketsa pensil hitam putih dengan detail halus."
+  },
+  {
+    "title": "Komik",
+    "prompt": "Ubah foto menjadi ilustrasi komik modern dengan garis tegas dan warna kontras."
+  },
+  {
+    "title": "Kartun",
+    "prompt": "Ubah foto menjadi karakter kartun lucu dengan warna cerah dan ekspresi ceria."
   }
 ]
