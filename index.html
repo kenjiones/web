@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Prompt Gallery</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Inter,sans-serif;
+}
+
+body{
+    background:#09090b;
+    color:white;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#999;
+    margin-bottom:30px;
+}
+
+.search{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:14px;
+    background:#18181b;
+    color:white;
+    margin-bottom:30px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#141418;
+    border:1px solid #262626;
+    border-radius:18px;
+    padding:20px;
+}
+
+.card h2{
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#aaa;
+    margin-bottom:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    background:#ffffff;
+    color:#000;
+    font-weight:bold;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+pre{
+    display:none;
+    margin-top:15px;
+    white-space:pre-wrap;
+    color:#ddd;
+    font-size:14px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>AI Prompt Gallery</h1>
+<p class="subtitle">
+Kumpulan Prompt Image AI Indonesia
+</p>
+
+<input
+class="search"
+placeholder="Cari prompt..."
+id="search">
+
+<div id="grid" class="grid"></div>
+
+</div>
+
+<script>
+
+let prompts=[];
+
+fetch("prompts.json")
+.then(r=>r.json())
+.then(data=>{
+    prompts=data;
+    render(data);
+});
+
+function render(data){
+
+const grid=document.getElementById("grid");
+
+grid.innerHTML="";
+
+data.forEach(item=>{
+
+const card=document.createElement("div");
+
+card.className="card";
+
+card.innerHTML=`
+<h2>${item.title}</h2>
+<p>${item.category}</p>
+
+<button>Copy Prompt</button>
+
+<pre>${item.prompt}</pre>
+`;
+
+const btn=card.querySelector("button");
+
+btn.onclick=()=>{
+
+navigator.clipboard.writeText(item.prompt);
+
+btn.innerHTML="✔ Copied";
+
+setTimeout(()=>{
+btn.innerHTML="Copy Prompt";
+},1500);
+
+}
+
+grid.appendChild(card);
+
+});
+
+}
+
+document.getElementById("search").oninput=(e)=>{
+
+const q=e.target.value.toLowerCase();
+
+render(prompts.filter(item=>
+
+item.title.toLowerCase().includes(q) ||
+
+item.category.toLowerCase().includes(q)
+
+));
+
+}
+
+</script>
+
+</body>
+</html>
